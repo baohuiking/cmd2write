@@ -1,0 +1,6 @@
+@echo off
+echo install dependencies...
+pip install -r requirements.txt
+echo build application...
+python build.py
+pause 

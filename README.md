@@ -25,11 +25,6 @@
 | Esc | 关闭信息窗口 |
 | Alt+Q | 重新打开上次关闭的窗口 |
 
-## 📦 安装说明
-
-1. 下载最新发布版本
-2. 解压到任意目录
-3. 双击运行 `cmd_writer.exe`
 
 ## 🛠️ 开发者指南
 
@@ -41,7 +36,7 @@
 ### 构建步骤
 1. 克隆仓库
 ```bash
-git clone https://github.com/OraCatQAQ/cmd_writer.git
+git clone https://github.com/baohuiking/cmd2write.git
 ```
 2. 安装依赖
 ```bash

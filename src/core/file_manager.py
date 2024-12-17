@@ -13,7 +13,7 @@ class FileManager:
             os.makedirs(self.novel_dir)
 
     def create_default_file(self):
-        filename = f"我的小说_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
+        filename = f"小说_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
         return os.path.join(self.novel_dir, filename)
 
     def list_files(self):
